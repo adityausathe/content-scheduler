@@ -1,4 +1,4 @@
-package com.adus.contentscheduler.commons;
+package com.adus.contentscheduler.dao;
 
 public class Constants {
     public static final double EFFECTIVE_ZERO = 0.01;

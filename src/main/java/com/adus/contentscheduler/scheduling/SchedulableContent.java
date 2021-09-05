@@ -1,9 +1,9 @@
 package com.adus.contentscheduler.scheduling;
 
-import com.adus.contentscheduler.commons.Constants;
-import com.adus.contentscheduler.commons.ContentType;
-import com.adus.contentscheduler.commons.Rating;
-import com.adus.contentscheduler.commons.entity.Content;
+import com.adus.contentscheduler.dao.Constants;
+import com.adus.contentscheduler.dao.ContentType;
+import com.adus.contentscheduler.dao.Rating;
+import com.adus.contentscheduler.dao.entity.Content;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,9 +12,9 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 class SchedulableContent {
-    private Content content;
-    private Rating rating;
-    private List<SchedulableContent> schedulableSubContents;
+    private final Content content;
+    private final Rating rating;
+    private final List<SchedulableContent> schedulableSubContents;
 
     private Float timeRestriction;
 

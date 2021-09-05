@@ -1,8 +1,8 @@
 package com.adus.contentscheduler.calendarmanagement;
 
 import com.adus.contentscheduler.CalendarDataUtil;
-import com.adus.contentscheduler.commons.entity.Calendar;
-import com.adus.contentscheduler.commons.repository.CalendarRepository;
+import com.adus.contentscheduler.dao.entity.Calendar;
+import com.adus.contentscheduler.dao.repository.spi.CalendarRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

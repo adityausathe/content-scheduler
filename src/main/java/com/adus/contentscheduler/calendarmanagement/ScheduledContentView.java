@@ -1,6 +1,6 @@
 package com.adus.contentscheduler.calendarmanagement;
 
-import com.adus.contentscheduler.commons.entity.ScheduledContent;
+import com.adus.contentscheduler.dao.entity.ScheduledContent;
 
 public class ScheduledContentView {
     private final ScheduledContent scheduledContent;

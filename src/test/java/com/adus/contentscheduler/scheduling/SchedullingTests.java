@@ -1,8 +1,8 @@
 package com.adus.contentscheduler.scheduling;
 
 import com.adus.contentscheduler.CalendarDataUtil;
-import com.adus.contentscheduler.commons.Constants;
-import com.adus.contentscheduler.commons.entity.Calendar;
+import com.adus.contentscheduler.dao.Constants;
+import com.adus.contentscheduler.dao.entity.Calendar;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

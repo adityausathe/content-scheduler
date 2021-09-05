@@ -1,9 +1,9 @@
 package com.adus.contentscheduler.scheduling;
 
-import com.adus.contentscheduler.commons.Constants;
-import com.adus.contentscheduler.commons.entity.CalendarDate;
-import com.adus.contentscheduler.commons.entity.DaySchedule;
-import com.adus.contentscheduler.commons.entity.ScheduledContent;
+import com.adus.contentscheduler.dao.Constants;
+import com.adus.contentscheduler.dao.entity.CalendarDate;
+import com.adus.contentscheduler.dao.entity.DaySchedule;
+import com.adus.contentscheduler.dao.entity.ScheduledContent;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 class SchedulableDay {
-    private CalendarDate calendarDate;
-    private Date date;
-    private List<SchedulableContent> contentsToStudy;
+    private final CalendarDate calendarDate;
+    private final Date date;
+    private final List<SchedulableContent> contentsToStudy;
     private float remainingTime;
 
     SchedulableDay(CalendarDate calendarDate) {

@@ -1,6 +1,6 @@
 package com.adus.contentscheduler.calendarmanagement;
 
-import com.adus.contentscheduler.commons.repository.CalendarRepository;
+import com.adus.contentscheduler.dao.repository.spi.CalendarRepository;
 
 public class CalendarManagementService {
     private final CalendarRepository calendarRepository;

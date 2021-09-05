@@ -1,7 +1,7 @@
 package com.adus.contentscheduler.calendarmanagement;
 
-import com.adus.contentscheduler.commons.entity.Calendar;
-import com.adus.contentscheduler.commons.entity.DaySchedule;
+import com.adus.contentscheduler.dao.entity.Calendar;
+import com.adus.contentscheduler.dao.entity.DaySchedule;
 
 import java.util.*;
 import java.util.stream.Collectors;

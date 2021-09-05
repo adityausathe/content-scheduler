@@ -1,15 +1,15 @@
 package com.adus.contentscheduler.scheduling;
 
-import com.adus.contentscheduler.commons.entity.Calendar;
-import com.adus.contentscheduler.commons.entity.DaySchedule;
+import com.adus.contentscheduler.dao.entity.Calendar;
+import com.adus.contentscheduler.dao.entity.DaySchedule;
 
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 class SchedulableCalendar {
-    private List<SchedulableDay> schedulableDays;
-    private float availableTime;
+    private final List<SchedulableDay> schedulableDays;
+    private final float availableTime;
 
     private SchedulableCalendar(List<SchedulableDay> schedulableDays, float availableTime) {
         this.schedulableDays = schedulableDays;

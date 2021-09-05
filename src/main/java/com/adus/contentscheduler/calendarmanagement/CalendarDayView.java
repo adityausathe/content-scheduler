@@ -1,8 +1,8 @@
 package com.adus.contentscheduler.calendarmanagement;
 
-import com.adus.contentscheduler.commons.entity.CalendarDate;
-import com.adus.contentscheduler.commons.entity.DaySchedule;
-import com.adus.contentscheduler.commons.entity.ScheduledContent;
+import com.adus.contentscheduler.dao.entity.CalendarDate;
+import com.adus.contentscheduler.dao.entity.DaySchedule;
+import com.adus.contentscheduler.dao.entity.ScheduledContent;
 
 import java.util.ArrayList;
 import java.util.Date;

@@ -1,10 +1,10 @@
 package com.adus.contentscheduler.contentpersonalization;
 
-import com.adus.contentscheduler.commons.Rating;
-import com.adus.contentscheduler.commons.entity.Content;
-import com.adus.contentscheduler.commons.entity.StaticContent;
-import com.adus.contentscheduler.commons.repository.ContentRepository;
-import com.adus.contentscheduler.commons.repository.StaticContentRepository;
+import com.adus.contentscheduler.dao.Rating;
+import com.adus.contentscheduler.dao.entity.Content;
+import com.adus.contentscheduler.dao.entity.StaticContent;
+import com.adus.contentscheduler.dao.repository.spi.ContentRepository;
+import com.adus.contentscheduler.dao.repository.spi.StaticContentRepository;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;

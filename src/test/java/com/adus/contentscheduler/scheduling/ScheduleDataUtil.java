@@ -1,9 +1,9 @@
 package com.adus.contentscheduler.scheduling;
 
-import com.adus.contentscheduler.commons.ContentType;
-import com.adus.contentscheduler.commons.Rating;
-import com.adus.contentscheduler.commons.entity.Content;
-import com.adus.contentscheduler.commons.entity.ContentAttributes;
+import com.adus.contentscheduler.dao.ContentType;
+import com.adus.contentscheduler.dao.Rating;
+import com.adus.contentscheduler.dao.entity.Content;
+import com.adus.contentscheduler.dao.entity.ContentAttributes;
 
 import java.util.ArrayList;
 import java.util.Arrays;

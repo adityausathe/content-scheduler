@@ -1,13 +1,13 @@
 package com.adus.contentscheduler.scheduling;
 
-import com.adus.contentscheduler.commons.Rating;
+import com.adus.contentscheduler.dao.Rating;
 
 import java.util.Collections;
 import java.util.List;
 
 class UnrestrictedTimeAllocator {
-    private int ratingsSum;
-    private float availableTime;
+    private final int ratingsSum;
+    private final float availableTime;
 
     UnrestrictedTimeAllocator(List<SchedulableContent> candidates, float availableTime) {
         this.ratingsSum = candidates.stream().map(SchedulableContent::getRating).mapToInt(Rating::getScore).sum();

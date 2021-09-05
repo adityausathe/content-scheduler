@@ -1,9 +1,9 @@
 package com.adus.contentscheduler.scheduling;
 
 class ResidualTimeAllocator {
-    private float residualTime;
-    private Mode mode;
-    private Float totalAvailableUnRestrictedTime;
+    private final float residualTime;
+    private final Mode mode;
+    private final Float totalAvailableUnRestrictedTime;
 
     ResidualTimeAllocator(Float residualTime, Float totalAvailableUnRestrictedTime) {
         this.totalAvailableUnRestrictedTime = totalAvailableUnRestrictedTime;

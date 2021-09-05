@@ -1,6 +1,6 @@
-package com.adus.contentscheduler.commons.repository;
+package com.adus.contentscheduler.dao.repository.spi;
 
-import com.adus.contentscheduler.commons.entity.Content;
+import com.adus.contentscheduler.dao.entity.Content;
 
 public interface ContentRepository {
     /**

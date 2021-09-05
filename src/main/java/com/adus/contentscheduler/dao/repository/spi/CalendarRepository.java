@@ -1,6 +1,6 @@
-package com.adus.contentscheduler.commons.repository;
+package com.adus.contentscheduler.dao.repository.spi;
 
-import com.adus.contentscheduler.commons.entity.Calendar;
+import com.adus.contentscheduler.dao.entity.Calendar;
 
 import java.util.Date;
 

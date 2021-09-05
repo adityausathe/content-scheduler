@@ -1,7 +1,7 @@
 package com.adus.contentscheduler.scheduling;
 
-import com.adus.contentscheduler.commons.Constants;
-import com.adus.contentscheduler.commons.ContentType;
+import com.adus.contentscheduler.dao.Constants;
+import com.adus.contentscheduler.dao.ContentType;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -10,10 +10,10 @@ import java.util.stream.Stream;
 
 class ScheduleCreator {
     private int stickinessFactor = Constants.STICKINESS_FACTOR;
-    private SchedulableContent schedulableContent;
-    private float availableTime;
-    private SchedulableCalendar schedulableCalendar;
-    private TimeAllocationStrategy timeAllocationStrategy;
+    private final SchedulableContent schedulableContent;
+    private final float availableTime;
+    private final SchedulableCalendar schedulableCalendar;
+    private final TimeAllocationStrategy timeAllocationStrategy;
 
     ScheduleCreator(SchedulableContent schedulableContent, SchedulableCalendar calendar, float availableTime, TimeAllocationStrategy timeAllocationStrategy) {
         this.schedulableContent = schedulableContent;

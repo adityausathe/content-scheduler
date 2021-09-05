@@ -1,7 +1,7 @@
-package com.adus.contentscheduler.commons;
+package com.adus.contentscheduler.dao;
 
 public enum ContentType {
-    //here order matters
+    //here the order matters
     PROGRAMME,
     SUBJECT,
     OTHER_MORE_GRANULAR

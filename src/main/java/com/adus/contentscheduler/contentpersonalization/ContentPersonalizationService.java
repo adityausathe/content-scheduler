@@ -1,7 +1,7 @@
 package com.adus.contentscheduler.contentpersonalization;
 
-import com.adus.contentscheduler.commons.repository.ContentRepository;
-import com.adus.contentscheduler.commons.repository.StaticContentRepository;
+import com.adus.contentscheduler.dao.repository.spi.ContentRepository;
+import com.adus.contentscheduler.dao.repository.spi.StaticContentRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,6 +1,6 @@
 package com.adus.contentscheduler;
 
-import com.adus.contentscheduler.commons.entity.*;
+import com.adus.contentscheduler.dao.entity.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

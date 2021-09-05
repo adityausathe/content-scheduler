@@ -1,4 +1,4 @@
-package com.adus.contentscheduler.commons.entity;
+package com.adus.contentscheduler.dao.entity;
 
 import lombok.Getter;
 import lombok.Setter;

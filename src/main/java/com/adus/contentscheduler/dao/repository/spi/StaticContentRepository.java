@@ -1,6 +1,6 @@
-package com.adus.contentscheduler.commons.repository;
+package com.adus.contentscheduler.dao.repository.spi;
 
-import com.adus.contentscheduler.commons.entity.StaticContent;
+import com.adus.contentscheduler.dao.entity.StaticContent;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ public interface StaticContentRepository {
     StaticContent findContentById(String contentId);
 
     /**
-     * finds shallow-content of all programmes
+     * finds shallow(un-hydrated) content-tree(only root-node populated) of all the programmes
      *
-     * @return content nodes
+     * @return list of programmes' content-nodes
      */
     List<StaticContent> findAllProgrammes();
 }

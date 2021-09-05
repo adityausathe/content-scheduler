@@ -1,4 +1,4 @@
-package com.adus.contentscheduler.commons;
+package com.adus.contentscheduler.dao;
 
 public enum Rating {
     LOW(1),

@@ -1,4 +1,4 @@
-package com.adus.contentscheduler.commons.entity;
+package com.adus.contentscheduler.dao.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -8,22 +8,24 @@ import java.util.Objects;
 
 @Getter
 @Setter
-public class StaticContent extends BaseEntity {
+public class Content extends BaseEntity {
     private ContentAttributes contentAttributes;
-    private List<StaticContent> subContents;
+    private Float timeRestriction;
+    private Float studyTime;
+    private List<Content> subContents;
 
-    public StaticContent(ContentAttributes contentAttributes) {
+    public Content(ContentAttributes contentAttributes) {
         this.contentAttributes = contentAttributes;
     }
 
-    public StaticContent() {
+    public Content() {
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        StaticContent that = (StaticContent) o;
+        Content that = (Content) o;
         return contentAttributes.equals(that.contentAttributes);
     }
 

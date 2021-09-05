@@ -1,7 +1,7 @@
-package com.adus.contentscheduler.commons.entity;
+package com.adus.contentscheduler.dao.entity;
 
-import com.adus.contentscheduler.commons.ContentType;
-import com.adus.contentscheduler.commons.Rating;
+import com.adus.contentscheduler.dao.ContentType;
+import com.adus.contentscheduler.dao.Rating;
 import lombok.Getter;
 import lombok.Setter;
 
