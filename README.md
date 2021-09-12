@@ -1,13 +1,13 @@
-# Content(Hierarchical) Scheduler
+# Content(_Composites/Aggregations/Hierarchical data_) Scheduler
 
 ### :heavy_check_mark: Working
 
 ## Introduction
-Certain scheduling problems can be solved effectively if we view the schedulable entities as a hierarchy rather than a flat sequence. This view of things also opens up avenues to express new kinds of optimization constraints. 
+Certain scheduling problems can be solved effectively if we view the schedulable entities as a composite/hierarchy rather than a flat sequence. This view of things also opens up avenues to express new kinds of optimization constraints. 
 
-For instance, one of such problems is the scheduling of course-work to prepare a study-schedule. The course-work can be viewed as a hierarchy- built of subjects, which in turn is hierarchical-entity composed of chapters, and so on. It seems natural to put certain restrictions(like time-allocated, weightage-assigned, etc) for a subject or a chapter, and would expect the scheduler to honor those restrictions, at the same level(chapter-level) as well as the levels below it(sub-chapter-level). 
+For instance, one of such problems is the scheduling of course-work to prepare a study-schedule. The course-work can be viewed as a composite/hierarchy- built of subjects, which in turn is composite-entity composed of chapters, and so on. It seems natural to put certain restrictions(like time-allocated, weightage-assigned, etc) for a subject or a chapter, and would expect the scheduler to honor those restrictions, at the same level(chapter-level) as well as the levels below it(sub-chapter-level). 
 
-This scheduling framework is designed and implemented to tackle such problems. 
+This scheduling framework is designed and implemented to tackle such problems.
 
 ## Functionality
 - The scheduling framework hosts the scheduling algorithm along with content and calendar management features, since the algorithm works closely with these.
@@ -20,6 +20,7 @@ Documentation to be added
 ## Implementation
 - Most of the domain-related operations are implemented by the framework; the clients would typically deal with data ingestion and persistence.
 - The implemented client-app currently only provides persistence layer for the framework; data ingestion via UI is yet to be done.
+- Domain Driven Design principles are followed for the implementation of the framework and the mobile application. 
 
 ## Dependencies
 - scheduling-framework: Java 9+
